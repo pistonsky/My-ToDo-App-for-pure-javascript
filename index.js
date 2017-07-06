@@ -19,7 +19,7 @@ function add() {
   var todos_string = JSON.stringify(todos);
   console.log(todos, todos_string);
   localStorage.setItem('todo', todos_string);
-  
+  document.getElementById('task').value = '';
 }
 
 function remove() {
