@@ -1,65 +1,106 @@
-﻿{
-    box-sizing: border-box;
-    border: 2px color #000000;
+﻿h1, h2, h3 {
+    font-size: 60px;
+    color: #FF1744;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* Remove margins and padding from the list */
+html, body {
+    height: 100%
+}
+
+html, div, body {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
 ul {
     margin: 0;
     padding: 0;
-    border: 2px color #000000;
+    border: 0;
 }
 
-/* Style the list items */
 ul li {
-    cursor: pointer;
-    position: relative;
-    padding: 12px 8px 12px 40px;
-    background: #708090;
+    padding: 0;
     font-size: 22px;
-    transition: 0.2s;
-
-    /* make the list items unselectable */
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    font-family: "Happy Monkey", Helvetica, Arial, Verdana, sans-serif;
+    width: 100%;
+    background: #18FFFF;
+    margin-top: 0px;
+    padding: 0;
+    border-radius: 50px;
+    height: 75px;
 }
 
-/* Set all odd list items to a different color (zebra-stripes) */
 ul li:nth-child(odd) {
-    background: #D3D3D3;
+    background: #EEFF41;
+    margin: 0;
+    opacity: 1;
+    padding: 0;
+    border-radius: 50px;
 }
 
-/* Style the close button */
-button {
-    position: absolute;
-    right: 200px;
-    top: 0;
-    padding: 12px 16px 12px 16px;
-}
-
-/* Style the input */
-input {
-    border: 10px color #8A2BE2;
-    width: 900px;
-    padding: 15px;
-    float: left;
-    font-size: 22px;
-}
-
-/* Style the "Add" button */
-#add {
-    padding: 10px;
-    width: 25%;
-    background: #d9d9d9;
-    color: #555;
-    text-align: center;
-    font-size: 22px;
+button { 
+    border: none;
+    font-family: inherit;
+    font-size: 15px;
+    background: #FFA726;
     cursor: pointer;
-    transition: 0.9s;
+    border-radius: 50px;
+    padding: 20px 65px;
+    letter-spacing: 1.5px;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    color: #424242;
+}
+
+button:hover {
+    background-color: #FF5722;
+    cursor: pointer;
+}
+
+input {
+    padding: 15px 15px 15px 15px;
+    border-radius: 50px;
+    border: solid 1px #ffffff;
+    background: #4c9cef;
+    color: #FFFF00;
+    width: 67%;
+    font-size: 18px;
+    outline: none;
+    height: 40px;
+    margin: auto;
+}
+
+#add {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    font-weight: 600;
+    background: #80CBC4;
+    border: none;
+    top: 5px;
+    bottom: 5px;
+    border-radius: 50px;
+    width: 280px;
+    text-align: center;
+    outline: none;
+    height: 60px;
+    margin: auto;
+    padding: 15px 15px 15px 15px;
 }
 
 #add:hover {
-    background-color: #90EE90;
+    background-color: #76FF03;
+    cursor: pointer;
 }
